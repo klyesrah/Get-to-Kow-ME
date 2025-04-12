@@ -1,0 +1,53 @@
+header{
+    padding: 20px;
+    background: rgba(154, 43, 245, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+body{
+    color: rgb(194, 169, 218);
+    text-align: center;
+    background: linear-gradient(to bottom, #1e3c72, #2a6c98)
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: mediumpurple;
+    font-size: 50px;
+
+} 
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+p, ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.card{
+    background: rgba(207, 201, 219, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 40px auto;
+}
+.creature-card{
+    background: rgb(97, 121, 214);
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.creature-card img{
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+.creatures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
